@@ -1,0 +1,22 @@
+{
+    "name": "admin/test-d-post-inter",
+    "description": "thailand-post-lib",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "ext-json": "*",
+        "vlucas/phpdotenv": "^4.1",
+        "phpoffice/phpspreadsheet": "^1.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "DPostInter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "z3niths",
+            "email": "march.kaew@gmail.com"
+        }
+    ]
+}
