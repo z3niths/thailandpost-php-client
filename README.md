@@ -14,6 +14,12 @@ Install
 composer install
 ```
 
+Configuration
+```
+- cp .env.example .env
+- Update login Username / Password in the .env file
+```
+
 
 Run an example usage
 
